@@ -8,6 +8,7 @@
   },
   "scripts": {
     "start": "node index.js",
+    "dev": "nodemon index.js",
     "deploy": "git subtree push --prefix server heroku master"
   },
   "author": "",
@@ -17,5 +18,8 @@
     "express": "^4.17.1",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
